@@ -5,7 +5,7 @@ import React from "react";
 import { css, jsx } from "@emotion/react";
 import logo from "./logo.png";
 
-const headerStyle = css`
+/* const headerStyle = css`
   display: flex;
   height: 10vh;
   width: 100%;
@@ -79,17 +79,15 @@ button :hover {
     color: #ffffff;
 }
 
-
-
-`;
+`; */
 
 class Nav extends React.Component {
   render() {
     return (
-      <header css={headerStyle}>
+      <header >
         <img  src={logo} alt="logo" />
-        <ul css={linkStyle}>
-        <div className="nav__links" css={nav__links}>
+        <ul>
+        <div className="nav__links">
           <li >
             <a href="">Services</a>
           </li>
@@ -100,7 +98,7 @@ class Nav extends React.Component {
             <a href="">Princing</a>
           </li>
           <li>
-            <button>Contact</button>
+            <button className = "btn">Contact</button>
           </li>
           </div>
         </ul>

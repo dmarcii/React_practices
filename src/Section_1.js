@@ -6,18 +6,19 @@ import { css, jsx } from "@emotion/react";
 import unsplahgood2 from './unsplahgood2.jpg';
 import Nav from './Nav'
 
-const sectionStyle = css`
+/* const sectionStyle = css`
     background-image: url(${unsplahgood2});
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-`;
+`; */
+
 class Section_1 extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section css={sectionStyle}>
-        <Nav/>
+        <section>
+         <Nav/> 
         </section>
       </React.Fragment>
     );
