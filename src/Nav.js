@@ -85,22 +85,20 @@ class Nav extends React.Component {
   render() {
     return (
       <header >
-        <img  src={logo} alt="logo" />
-        <ul>
-        <div className="nav__links">
+        <img src={logo} alt="logo" />
+        <ul className="nav-links">
           <li >
             <a href="">Services</a>
           </li>
-          <li  >
-            <a href="">About</a>
-          </li>
-          <li >
-            <a href="">Princing</a>
+          <li>
+            <a  href="">About</a>
           </li>
           <li>
+            <a href="">Princing</a>
+          </li>
+          <li> 
             <button className = "btn">Contact</button>
           </li>
-          </div>
         </ul>
       </header>
     );

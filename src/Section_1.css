@@ -5,14 +5,14 @@
     margin: 0;
   }
 
-section {
+.Section_1 {
   background-image: url('./unsplahgood2.jpg');
   min-height: 100vh;
   background-position: center;
   background-size: cover;
 }
 
-header {
+.Section_1 header {
   display: flex;
   height: 10vh;
   width: 100%;
@@ -23,60 +23,50 @@ header {
 
 }
 
-.btn{
-  background-color: black;
+.Section_1 header img  {
+  
+  cursor: pointer;
+  max-width: 10%;
+  height: auto;
+  display: inline-block;
+  
 }
 
-
-
-/* li {
+.nav-links {
+  
   list-style: none;
   cursor: pointer;
   display: inline-block;
   padding: 0px 20px;
-}
-
-a {
   color: #ffffff;
+  
 }
 
-img  {
-
-  cursor: pointer;
-max-width: 10%;
-height: auto;
-display: inline-block;
-
-}
-
-li,
-a,
-button {
+.nav-links a, button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
+  color: white;
 }
 
-
-
- li {
+.nav-links li {
 
   display: inline-block;
   padding: 0px 20px;
 }
 
-
-li :hover {
+.nav-links a:hover {
   color: rgba(0, 136, 169, 1);
 }
 
-li a {
+.nav-links a, button {
   transition: all 0.3s ease 0s;
   color: white;
 }
 
-button {
+.btn {
+  
   cursor:pointer;
   padding: 15% 20% ;
   background-color: rgba(0, 136, 169, 1);
@@ -85,7 +75,7 @@ button {
   color: white;
   }
   
-button :hover {
-  background-color: rgba(0, 15, 19, 1);
+.btn:hover {
+  background-color: rgba(0, 120, 169, 0.8);
   color: #ffffff;
-} */
+} 
